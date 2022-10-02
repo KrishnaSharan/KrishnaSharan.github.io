@@ -12,7 +12,7 @@
     <title>Document</title>
 
     <!-- Link to my style sheet -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index2.css">
 
     <!--The next three lines allow the Vega embed-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
@@ -27,25 +27,31 @@
     <div class="myWeek1">
         <h1>Data Science for Economists.</h1>
         
-        <h3>Covid-19</h3>
-        <p>The first chart tracks Covid-19 cases by UK region.</p>
+        <h3>Prices </h3>
+        <p>The first chart compares change in fish and meat prices.</p>
         <div class="chart" id="Chart1"></div>
-
-        <h3>Productivity puzzle</h3>
-        <p>My second chart looks at productivity in the UK</p>
+    
+        <h3>Environment</h3>
+        <p>My second chart looks at GDP loss due to temperature increase</p>
         <div class="chart" id="Chart2"> </div>
+
+        <h3>Interactive Economics</h3>
+        <p>My third chart looks at the change in size of the UK economy over time</p>
+        <div class="chart" id="Chart3"> </div>
     </div> 
 </body>
 
 
 <script>
     //Define charts:
-    var myChart1 = "chart1_covidUKRegions.json";
-    var myChart2 = "chart2_ukProductivity.json";
+    var myChart1 = "chartINF7.json";
+    var myChart2 = "chartENV15.json";
+    var myChart3 = "interactive_doubleSliderONS.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
 </script>
 
 </html>

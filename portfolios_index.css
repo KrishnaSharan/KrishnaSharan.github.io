@@ -55,9 +55,9 @@ h1,h2, h3, p{
 
 #Chart8{
     background-color: white;
-    width: 650px;
+    width: 670px;
     border-width: 10px;
     border-style: solid;
-    border-radius: 20px;
+    border-radius: 10px;
     border-color: rgb(15, 14, 14);
 }

@@ -30,6 +30,7 @@ h1,h2, h3, p{
 
 
 .myWeek1{
+    align-items: center;
     margin: auto;
     max-width: 750px;
     background-color: rgb(231, 228, 237);
@@ -44,6 +45,7 @@ h1,h2, h3, p{
 
 /* Set the apperance of the class, chart */
 .chart{
+
     background-color: white;
     width: 450px;
     border-width: 5px;
@@ -51,16 +53,4 @@ h1,h2, h3, p{
     border-radius: 10px;
     border-color: rgb(15, 14, 14);
     
-}
-
-.ChartDashboard{
-    align-items: center;
-    background-color: white;
-    width:300px;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #313d5a;
-    margin-left: 40px;
-    margin-bottom: 40px;
 }

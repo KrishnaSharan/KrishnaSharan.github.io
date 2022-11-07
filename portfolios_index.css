@@ -52,3 +52,15 @@ h1,h2, h3, p{
     border-color: rgb(15, 14, 14);
     
 }
+
+.ChartDashboard{
+    align-items: center;
+    background-color: white;
+    width:300px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #313d5a;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}

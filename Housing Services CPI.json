@@ -1,14 +1,15 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  
-      "title": {
+ 
+     "title": {
       "text": "Monthly CPI for Housing Services",
       "subtitle": "The follwoing data was taken from an ONS API",
       "subtitleFontStyle": "Ubuntu",
       "anchor": "start",
       "color": "black"
     },
-      "data":  {
+ 
+    "data":  {
   
         "values": [{
               "date": "1989 JAN",
@@ -4061,10 +4062,42 @@
               "year": "2022"
           }
       ]},
-  
+ 
      "height": 200,
       "width": 250,
-      "mark": "line",
+
+    "mark":{
+      "type": "line",
+      "color":"#00BFFF",
+      "strokeWidth":2,
+      "opacity":1
+    },
+    "transform": [
+      {"filter": "datum.year>minYear"},
+      {"filter": "datum.year<maxYear"}
+    ],
+
+    "params": [    
+      {"name":"minYear", "value":1980,
+         "bind":{
+           "input": "range",
+           "min": 1980,
+           "max": 2022,
+           "step": 1,
+           "name": "Start year:"}
+      },
+
+      {"name":"maxYear", "value":2022,
+         "bind":{
+           "input": "range",
+           "min": 1980,
+           "max": 2022,
+           "step": 1,
+           "name": "End year:"}
+      }
+    ],
+   
+ 
       "encoding": {
         "x": {"field": "date", "type": "temporal", "axis": {"labelAngle": 0},"title": ""},
         "y": {"field": "value", "type": "quantitative", "title": "CPI(%)"}

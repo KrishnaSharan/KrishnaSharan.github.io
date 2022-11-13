@@ -8,6 +8,7 @@
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "subtitlePadding":5,
+      "anchor":"start",
       "color": "black"
     },
     "data": {

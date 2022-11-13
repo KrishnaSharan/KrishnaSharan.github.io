@@ -1,0 +1,26 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 400,
+    "title": {
+      "text": "The Base Map for USA",
+      "subtitle":["The Map of USA projects all the states in the country, Source- Github of RDEconomist"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "subtitlePadding":5,
+      "anchor": "middle",
+      "color": "black"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/maps/geoUSStates.json",
+      "format": {"property": "features"}
+    },
+    "projection": {"type": "albersUsa"},
+    "mark": {
+        "type": "geoshape",
+        "fill": "antiquewhite",
+        "stroke": "black",
+        "strokeWidth":0.5},
+    "encoding": {"tooltip":{"field":"properties.NAME"}}
+  }
+  

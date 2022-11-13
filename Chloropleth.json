@@ -1,0 +1,51 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "width":500,
+    "height":400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/maps/geoUSStates.json",
+      "format": {"property": "features"}
+    },
+ "projection": {"type":"albersUsa"},
+    "title": {
+      "text": "The Choropleth",
+      "subtitle": "USA individual gun onwership per state; Source- World Population Review",
+      "subtitleFontStyle": "Times New Roman",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+    "transform": [
+      {
+        "lookup": "properties.NAME",
+
+        "from":{
+          "data":{
+            "url": "https://raw.githubusercontent.com/KrishnaSharan/KrishnaSharan.github.io/main/data.json"},
+            "key":"state",
+            "fields":["totalGuns"]
+          }
+      }
+
+    ],
+  
+    "mark": {
+      "type": "geoshape",
+      "stroke":"black",
+      "strokeWidth":0.5
+     },
+
+     "encoding":{
+
+      "color":{
+        "field":"totalGuns",
+        "type":"quantitative"
+      },
+      "tooltip":[
+        {"field":"properties.NAME", "type": "nominal", "title":"State"},
+        {"field":"totalGuns", "title": "Gun Ownership"}
+       ]
+     }
+}  

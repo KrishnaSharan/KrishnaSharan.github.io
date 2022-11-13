@@ -46,6 +46,8 @@ h1,h2, h3, p{
 .chart{
     margin-left: center;
     margin-right: center;
+    display: flex;
+    justify-content: center;
     background-color: white;
     width: 450px;
     border-width: 5px;

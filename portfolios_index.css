@@ -44,10 +44,9 @@ h1,h2, h3, p{
 
 /* Set the apperance of the class, chart */
 .chart{
-    margin-left: center;
-    margin-right: center;
-    display: flex;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
     background-color: white;
     width: 450px;
     border-width: 5px;

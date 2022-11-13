@@ -9,7 +9,7 @@
     },
  "projection": {"type":"albersUsa"},
     "title": {
-      "text": "The Choropleth",
+      "text": "USA Gun Ownership",
       "subtitle": "USA individual gun onwership per state; Source- World Population Review",
       "subtitleFontStyle": "Times New Roman",
       "subtitleFontSize": 10,

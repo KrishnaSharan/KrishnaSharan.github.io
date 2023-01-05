@@ -29,17 +29,7 @@ h1,h2, h3, p{
 
 
 
-.myWeek1{
-    margin: auto;
-    max-width: 900px;
-    background-color: rgb(231, 228, 237);
 
-      
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 15px;
-    border-color: rgb(30, 32, 31);
-}
 
 
 /* Set the apperance of the class, chart */

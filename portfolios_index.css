@@ -75,8 +75,8 @@ h1,h2, h3, p{
 
 .chart:hover {
     border-color: rgb(36, 2, 62);
-    transform: scale(1.20, 1.20);
-    transition: transform 1500ms;
+    transform: scale(1.10, 1.10);
+    transition: transform 1100ms;
   }
   
 

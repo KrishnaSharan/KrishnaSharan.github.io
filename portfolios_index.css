@@ -73,12 +73,44 @@ h1,h2, h3, p{
  grid-template-columns: auto auto auto;
 }
 
+.chart:hover {
+    border-color: rgb(36, 2, 62);
+    transform: scale(1.20, 1.20);
+    transition: transform 1500ms;
+  }
+  
+
 .ChartDashboard{
     margin-left: auto;
     margin-right: auto;
     width: 8em;
     background-color: white;
     width: 350px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(15, 14, 14);
+    
+}
+#Chart18{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    background-color: white;
+    width: 600px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(15, 14, 14);
+    
+}
+
+#Chart19{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    background-color: white;
+    width: 600px;
     border-width: 5px;
     border-style: solid;
     border-radius: 10px;

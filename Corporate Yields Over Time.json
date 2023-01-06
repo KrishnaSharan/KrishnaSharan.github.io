@@ -1,0 +1,92 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "",
+    "title": {
+  
+    "text": "US Investment Grade Corprate Bond Yields by Sector ",
+  
+    "subtitle": ["Source:S&P Dow Jone Indices",""],
+  
+    "subtitleFontStyle":"italic",
+  
+    "subtitleFontSize":10,
+  
+    "anchor": "start",
+  
+    "color": "black"
+  
+  },
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/KrishnaSharan/KrishnaSharan.github.io/main/bonds_project_json_file.json"
+    },
+    "config": {
+      "locale": {
+        "number": {
+          "decimal": ".",
+          "thousands": ",",
+          "grouping": [3],
+          "currency": ["£ ", ""]
+        }
+      },
+      "view": {"stroke": "transparent"}
+    },
+    "selection": {
+      "Select Bond": {
+        "type": "single",
+        "fields": ["Index Identifier"],
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "S&P 500  Energy  Bond Index",
+            "S&P 500  Financials  Bond Index",
+            "S&P 500  Telecommunication Services  Bond Index",
+            "S&P 500 Consumer Discretionary  Bond Index",
+            "S&P 500 Industrials  Bond Index"
+          ],
+          "name": "Select Bond"
+        }
+      }
+    },
+    "transform": [{"filter": {"selection": "Select Bond"}}],
+    "height": 280,
+    "width": 400,
+    "mark": {"type": "line", "point": false},
+    "encoding": {
+      "x": {
+        "field": "Date ",
+        "type": "temporal",
+        "title": null,
+        "axis": {"grid": false}
+      },
+      "y": {
+        "field": "Yields",
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false, "format":"%"}
+      },
+      "color": {
+        "field": "Index Identifier",
+        "title": "Bond Index"
+  
+      },
+      "tooltip": [
+        {
+          "field": "Date ",
+          "type": "temporal",
+          "title": "Date"
+        },
+        {"field": "Index Identifier", "type": "nominal", "title": "Region"},
+        {
+          "field": "Yields",
+          "type": "quantitative",
+          "format":"%",
+          "title": "Yield"
+        }
+      ]
+    },
+ "background": "#afd1e7",
+    "autosize": {"type": "pad", "contains": "padding", "resize": true}
+  }
+  

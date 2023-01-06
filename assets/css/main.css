@@ -4297,7 +4297,8 @@ a img {
 }
 
 .header-links {
-    margin: 10px
+    margin: 10px;
+    color: #f1f3f5;
 }
 
 .header-links .link {
@@ -4306,6 +4307,7 @@ a img {
     font-size: 15px;
     margin: 10px
 }
+
 
 @media only screen and (min-width:550px) {
     .header-links .link {
@@ -4459,7 +4461,7 @@ a img {
     display: inline-block;
     margin: 10px 0;
     padding: 5px;
-    color: #1488CC;
+    color: #e9eaeb;
     background-color: transparent;
     border: 1px solid #1488CC;
     border-radius: 10px;
@@ -4472,8 +4474,8 @@ a img {
 
 .project-link:active,
 .project-link:hover {
-    background-color: #5347a8;
-    border-color: #5347a8;
+    background-color: #f1f3f5;
+    border-color: #f1f3f5;
     color: #fff;
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
 }
@@ -4492,4 +4494,12 @@ a img {
 .footer a {
     text-decoration: none;
     margin: 0
+}
+
+#link1{
+    color: #f1f3f5;
+}
+
+#link2{
+    color: #f1f3f5;
 }

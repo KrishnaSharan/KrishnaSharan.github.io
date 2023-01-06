@@ -53,20 +53,6 @@ h1,h2, h3, p{
    
 }
 
-.image{
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em;
-    background-color: white;
-    width: 450px;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(15, 14, 14);
-   
-}
-
-
 .container {
     display: flex;
     flex-flow: wrap;
@@ -89,9 +75,4 @@ h1,h2, h3, p{
     transition: transform 1100ms;
   }
 
-  .image:hover {
-    border-color: rgb(36, 2, 62);
-    transform: scale(1.10, 1.10);
-    transition: transform 1100ms;
-  } 
  

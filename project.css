@@ -53,6 +53,19 @@ h1,h2, h3, p{
    
 }
 
+.visual{
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  background-color: white;
+  width: 450px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(15, 14, 14);
+ 
+}
+
 .container {
     display: flex;
     flex-flow: wrap;
@@ -64,10 +77,6 @@ h1,h2, h3, p{
     align-content: center;
   }
 
-.grid-container{
- display: grid;
- grid-template-columns: auto auto auto;
-}
 
 .chart:hover {
     border-color: rgb(36, 2, 62);

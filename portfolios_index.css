@@ -4,7 +4,8 @@
 
 
 /* Import a font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Ubuntu&display=swap');
+
 
 
 
@@ -22,13 +23,13 @@ html {
 
 
 body{
-    background-color: rgb(11, 0, 72)
- }
-
+    background-color: #E8F0F9; /* Pale blue */
+   }
+  
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1,h2, h3, p{
-    color:rgb(238, 239, 241);
+    color:black;
     font-family: 'Ubuntu', sans-serif;
     text-align: center
 
@@ -45,7 +46,6 @@ h1,h2, h3, p{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     background-color: #D3E3F3; /* Slightly darker pale blue */
-    
   }
   
 
@@ -56,18 +56,16 @@ h1,h2, h3, p{
 
 /* Set the apperance of the class, chart */
 .chart{
-  position: relative;
-  top: 30px;
-  margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     width: 8em;
-    background-color: "#afd1e7";
-    width: 800px;
-    border-width: 8px;
+    background-color: white;
+    width: 450px;
+    border-width: 5px;
     border-style: solid;
     border-radius: 10px;
     border-color: #D3E3F3(7, 56, 75);
-   
+    
 }
 .container {
     display: flex;
@@ -81,6 +79,8 @@ h1,h2, h3, p{
     width: 80%; /* This will set the width to be 80% of the parent element */
    height: 400px; /* This will set the height to 400 pixels */
     }
+
+
 .grid-container{
  display: grid;
  grid-template-columns: auto auto auto;

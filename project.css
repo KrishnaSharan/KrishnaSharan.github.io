@@ -44,10 +44,12 @@ h1,h2, h3, p{
 
 /* Set the apperance of the class, chart */
 .chart{
-    margin-left: auto;
+  position: relative;
+  top: 30px;
+  margin-left: auto;
     margin-right: auto;
     width: 8em;
-    background-color: #D3E3F3;
+    background-color: "#afd1e7";
     width: 800px;
     border-width: 8px;
     border-style: solid;
@@ -75,10 +77,15 @@ h1,h2, h3, p{
 }
 
 .chart:hover {
-  border-color: linear-gradient(to right, #a4abec, #160347, #c5cdd8);
+  border-color: linear-gradient(to right, #001aff, #E100FF, #FF00BA);
   transform: scale(1.10, 1.10);
   transition: transform 1100ms;
 }
+
+#Chart1{
+  width: 400px;
+}
+
 
   #Chart2{
     width: 415px;

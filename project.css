@@ -45,7 +45,7 @@ h1,h2, h3, p{
     margin-right: auto;
     width: 8em;
     background-color: white;
-    width: 600px;
+    width: 700px;
     border-width: 5px;
     border-style: solid;
     border-radius: 10px;
@@ -86,12 +86,12 @@ h1,h2, h3, p{
     transition: transform 1100ms;
   }
 
-  #Chart3{
-    width: 400px;
+  #Chart2{
+    width: 350px;
   }
 
 
   #Chart3{
-    width: 350px;
+    width: 400px;
   }
 

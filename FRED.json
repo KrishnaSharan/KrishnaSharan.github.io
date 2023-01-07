@@ -91,7 +91,7 @@
   
               "field": "value",
   
-              "type": "nominal",
+              "type": "quantitative",
   
               "title": "Federal Reserve Effective Funds Rate(%)"
   
@@ -101,7 +101,9 @@
   
               "field": "date",
   
-              "type": "quantitative",
+              "type": "nominal",
+  
+              "timeUnit":"utcyearmonthdate",
   
               "title": "Date"
   
@@ -120,3 +122,11 @@
     
     
       "background": "#afd1e7"}
+  
+  
+       
+    
+       
+    
+    
+    

@@ -75,14 +75,14 @@ h1,h2, h3, p{
     transition: transform 1100ms;
   }
   #Chart1{
-    width: 400px;
+    width: 300px;
   }
 
   #Chart2{
-    width: 400px;
+    width: 410px;
   }
 
   #Chart3{
-    width: 630px;
+    width: 640px;
   }
 

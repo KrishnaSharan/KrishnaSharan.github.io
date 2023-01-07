@@ -45,25 +45,14 @@ h1,h2, h3, p{
     margin-right: auto;
     width: 8em;
     background-color: white;
-    width: 700px;
-    border-width: 5px;
+    width: 800px;
+    border-width: 8px;
     border-style: solid;
     border-radius: 10px;
     border-color: rgb(15, 14, 14);
    
 }
 
-.visual{
-  margin-left: auto;
-    margin-right: auto;
-    width: 8em;
-    background-color: white;
-    width: 600px;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(15, 14, 14);
-}
 .container {
     display: flex;
     flex-flow: wrap;
@@ -89,7 +78,6 @@ h1,h2, h3, p{
   #Chart2{
     width: 350px;
   }
-
 
   #Chart3{
     width: 400px;

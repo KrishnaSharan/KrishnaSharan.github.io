@@ -148,7 +148,7 @@
 
   ],
 
-  "background": "#afd1e7",
+  "background": "white",
 
   "autosize": {"type": "pad", "contains": "padding", "resize": true},
 

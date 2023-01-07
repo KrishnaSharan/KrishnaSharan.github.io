@@ -1,5 +1,5 @@
 /* Import a font */
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 
 
@@ -75,7 +75,7 @@ h1,h2, h3, p{
     transition: transform 1100ms;
   }
   #Chart1{
-    width: 200px;
+    width: 300px;
   }
 
   #Chart2{

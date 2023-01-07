@@ -81,6 +81,22 @@
            <p>I have portrayed individual gun ownership per USA state. The first map is a base map of USA which shows the country. Furthermore the second map is called a chloropleth which color codes the USA map on the basis of the number of guns held by each individual in the different states. The mottivation behind showcasing such data as gun ownership in USA has always been a core political debate.</p>
         </container>
          
+        <h2>Week 9: Regressions</h2> 
+        <container class="acontainer">
+        <div class = chart id = "Chart20"></div>
+        <div class = chart id = "Chart21"></div>
+        <p>The first chart regresses Montly returns of S&P 500 equity index on Monthly Federal Funds Rate. Whereas, the second chart regresses the monthly yields of Investment Grade Corporate Bonds on Mothly Fed Funds Rate. It can be observed that the R^2 for first regression (0.03) is signifcanlty lower than the second regression (0.81). Thus, implicating that a change in monthly in Fed Funds rate explains signficantly higher variance in invetsment grade coprorate bond yields as compared to variations in monthly S&P 500 returns. </p>
+     </container>
+        </div>
+
+        <h2>Week 10 & 11: Machine Learning</h2> 
+        <container class="acontainer">
+        <div class="visual"><img src="Supervised_Learning.JPG"></div>
+        <div class="visual"><img src="Clustering.jpg"></div>
+        <p>The above two images depict tasks based on machines learning in pyhton. The first task is focused on the criteria of calssification within supervised learning and the second on is focused on the criteria of dynamic time wrapping within unsupervised learning. The first image plots 178 wines from 3 winemakers and classifies it based on the color intensity and hue of each wine. The second image uses dynamic time wrapping to investigate which sectoral investmnet grade bonds moves the closes during 2022. It concludes that Telecom and Consumer sector bonds moved closes to each other and financial sector bonds weare an outlier</p>
+     </container>
+
+
         </div>
 
     </div> 
@@ -108,6 +124,10 @@
     var myChart17 = "Travel and Transport Services CPI.json";
     var myChart18 = "Base Map.json";
     var myChart19 = "Chloropleth.json";
+    var myChart20 = "RegressionFED.json";
+    var myChart21 = "FRED.json";
+    var myChart22 = "Supervised_Learning.JPG";
+    var myChart23 = "Clustering.jpg";
 
 
     // Embed charts:
@@ -130,6 +150,8 @@
     vegaEmbed('#Chart17', myChart17);
     vegaEmbed('#Chart18', myChart18);
     vegaEmbed('#Chart19', myChart19);
+    vegaEmbed('#Chart19', myChart20);
+    vegaEmbed('#Chart19', myChart21);
 </script>
 
 </html>

@@ -4,8 +4,7 @@
 
 
 /* Import a font */
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Ubuntu&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 
 
@@ -40,10 +39,13 @@ h1,h2, h3, p{
     justify-content: center;;
     gap: 40px 40px;
     margin-top: 30px;
-    border-style: dashed;
-    border-color: rgb(201, 236, 7);
-    padding: 30px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #E5F1F9; /* Darker blue */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    background-color: #D3E3F3; /* Slightly darker pale blue */
+    
   }
   
 
@@ -54,16 +56,18 @@ h1,h2, h3, p{
 
 /* Set the apperance of the class, chart */
 .chart{
-    margin-left: auto;
+  position: relative;
+  top: 30px;
+  margin-left: auto;
     margin-right: auto;
     width: 8em;
-    background-color: white;
-    width: 450px;
-    border-width: 5px;
+    background-color: "#afd1e7";
+    width: 800px;
+    border-width: 8px;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(15, 14, 14);
-    
+    border-color: #D3E3F3(7, 56, 75);
+   
 }
 .container {
     display: flex;
@@ -74,8 +78,9 @@ h1,h2, h3, p{
     padding-bottom: 0px;
     justify-content: center;
     align-content: center;
-  }
-
+    width: 80%; /* This will set the width to be 80% of the parent element */
+   height: 400px; /* This will set the height to 400 pixels */
+    }
 .grid-container{
  display: grid;
  grid-template-columns: auto auto auto;

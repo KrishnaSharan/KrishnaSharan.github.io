@@ -10,13 +10,13 @@
 /* Book on colour = Joseph Albers - Interaction of Colour */
 
 body{
-    background-color: rgb(11, 0, 72)
+  background-color: #E8F0F9; /* Pale blue */
  }
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1,h2, h3, p{
-    color:rgb(238, 239, 241);
+    color:black;
     font-family: 'Ubuntu', sans-serif;
     text-align: center
 
@@ -29,9 +29,10 @@ h1,h2, h3, p{
     margin-top: 30px;
     border-width: 4px;
     border-style: solid;
-    border-color: rgba(255, 255, 255, 0.8);
+    border-color: #E5F1F9; /* Darker blue */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    background-color: #D3E3F3; /* Slightly darker pale blue */
     
   }
  
@@ -46,12 +47,12 @@ h1,h2, h3, p{
     margin-left: auto;
     margin-right: auto;
     width: 8em;
-    background-color: white;
+    background-color: #D3E3F3;
     width: 800px;
     border-width: 8px;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(15, 14, 14);
+    border-color: #D3E3F3(7, 56, 75);
    
 }
 
@@ -64,7 +65,9 @@ h1,h2, h3, p{
     padding-bottom: 0px;
     justify-content: center;
     align-content: center;
-  }
+    width: 80%; /* This will set the width to be 80% of the parent element */
+   height: 400px; /* This will set the height to 400 pixels */
+    }
 
 .grid-container{
  display: grid;
@@ -72,10 +75,10 @@ h1,h2, h3, p{
 }
 
 .chart:hover {
-    border-color: rgb(36, 2, 62);
-    transform: scale(1.10, 1.10);
-    transition: transform 1100ms;
-  }
+  border-color: linear-gradient(to right, #a4abec, #160347, #c5cdd8);
+  transform: scale(1.10, 1.10);
+  transition: transform 1100ms;
+}
 
   #Chart2{
     width: 415px;

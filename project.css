@@ -115,7 +115,9 @@ h1,h2, h3, p{
 
 
 
-
+#Chart1{
+  width: 500px;
+}
 
   #Chart2{
     width: 415px;

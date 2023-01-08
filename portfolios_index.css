@@ -107,6 +107,15 @@ h1,h2, h3, p{
     border-color: rgb(15, 14, 14);
     
 }
+
+#Chart8{
+    position: relative;
+    top: 0px;
+    
+}
+
+
+
 #Chart18{
     margin-left: auto;
     margin-right: auto;

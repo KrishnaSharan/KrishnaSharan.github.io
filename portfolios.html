@@ -25,7 +25,7 @@
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     
         <h1>Data Science for Economists.</h1>
-        <h2>Week 1</h2>
+        <h2>Week 1: Embeddinf Charts from Vega</h2>
         <container class="acontainer">
         <div class="chart" id="Chart1"></div>
         <div class="chart" id="Chart2"> </div>
@@ -33,7 +33,7 @@
         <p>The first chart analyses the unemployment rate. The seond chart shows the GDP loss due to temperature increase for different emerging market countries. Lastly, the last graph is an interactive graph which uses tooltip function in vega and also includes sliders for conducting analysis at different time periods.</p>
         </container>
 
-        <h2>Week 2</h2>
+        <h2>Week 2: Analysing Debt Owed to IMF From Different Perspectives</h2>
         <container class="acontainer">
         <div class="chart" id="Chart4"></div>
         <div class="chart" id="Chart5"></div>
@@ -80,11 +80,20 @@
            <div class = chart id = "Chart19" style = "display: block;"></div>
            <p>I have portrayed individual gun ownership per USA state. The first map is a base map of USA which shows the country. Furthermore the second map is called a chloropleth which color codes the USA map on the basis of the number of guns held by each individual in the different states. The mottivation behind showcasing such data as gun ownership in USA has always been a core political debate.</p>
         </container>
-         
-        <h2>Week 9: Regressions</h2> 
+
+        <h2>Week 8: Festival of Economics</h2> 
         <container class="acontainer">
         <div class = chart id = "Chart20"></div>
         <div class = chart id = "Chart21"></div>
+        <p>I recently attended Festival of Economics event named "What's Next for Central Banks". The two speakers who gave the talk were Dr Jagit Chadha (Director of the National Institute of Economic and Social Research) and Huw Phill (Chief Economist, Bank of England). Given the highly uncertain macroeconomic environment right now, the talk was majorly focused around inflation and the central bank interest rate hike. Dr Chadha had a critical view of BOE's policy saying that it was late with the hike decision whereas Huw Phill stressed that Bank was doing everything in its power to bring back inflation to normal levels. In reality, if we analyse the above two graphs, it can be observed that depite BOE's aggresive rate hike policy it has failed to tame the inflation and with energy prices being sticky, thus preventing BOE from controlling the inflation there is no doubt that rate hikes will continue in the future. However, I agree with Huw Phill's view that because rate hikes have lag effects it will take significant time to return back to 2% level.</p>
+     </container>
+        </div>
+
+         
+        <h2>Week 9: Regressions</h2> 
+        <container class="acontainer">
+        <div class = chart id = "Chart22"></div>
+        <div class = chart id = "Chart23"></div>
         <p>The first chart regresses Montly returns of S&P 500 equity index on Monthly Federal Funds Rate. Whereas, the second chart regresses the monthly yields of Investment Grade Corporate Bonds on Mothly Fed Funds Rate. It can be observed that the R^2 for first regression (0.03) is signifcanlty lower than the second regression (0.81). Thus, implicating that a change in monthly in Fed Funds rate explains signficantly higher variance in invetsment grade coprorate bond yields as compared to variations in monthly S&P 500 returns. </p>
      </container>
         </div>
@@ -124,10 +133,12 @@
     var myChart17 = "Travel and Transport Services CPI.json";
     var myChart18 = "Base Map.json";
     var myChart19 = "Chloropleth.json";
-    var myChart20 = "RegressionFED.json";
-    var myChart21 = "FRED.json";
-    var myChart22 = "Supervised_Learning.JPG";
-    var myChart23 = "Clustering.jpg";
+    var myChart20 = "BOE.json";
+    var myChart21 = "Inflation.json";
+    var myChart22 = "Stocks.json";
+    var myChart23 = "RegressionFED.json";
+    var myChart24 = "Supervised_Learning.JPG";
+    var myChart25 = "Clustering.jpg";
 
 
     // Embed charts:
@@ -150,6 +161,8 @@
     vegaEmbed('#Chart17', myChart17);
     vegaEmbed('#Chart18', myChart18);
     vegaEmbed('#Chart19', myChart19);
+    vegaEmbed('#Chart20', myChart20);
+    vegaEmbed('#Chart21', myChart21);
     vegaEmbed('#Chart20', myChart20);
     vegaEmbed('#Chart21', myChart21);
 </script>

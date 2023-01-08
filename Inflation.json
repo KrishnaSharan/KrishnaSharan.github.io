@@ -12,7 +12,8 @@
         "subtitleColor": "black"
       },
     "mark": "line",
-    "width":400,
+    "width":390,
+    "height":300,
     "encoding": {
       "x": {"field": "Date", "type": "temporal","axis":{"grid":""}},
       "y": {"field": "Inflation", "type": "quantitative","axis":{"grid":""},"title":"Inflation (%)"},

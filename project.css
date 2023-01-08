@@ -25,7 +25,7 @@ h1,h2, h3, p{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;;
-    gap: 40px 40px;
+    gap: 20px 20px;
     margin-top: 30px;
     border-width: 4px;
     border-style: solid;
@@ -35,6 +35,37 @@ h1,h2, h3, p{
     background-color: #D3E3F3; /* Slightly darker pale blue */
     
   }
+
+  .heading-and-paragraph {
+    width: 800px;
+    height: 400px;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 20px;
+    background-color: #D3E3F3;
+    border-color: #E5F1F9; 
+    border-width: 4px;
+    border-style: solid;
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto; /* This will center the element horizontally */
+  }
+
+  h1 {
+    text-decoration: underline;}
+
+  h2 {
+    text-shadow: 0 0 20px rgba(211, 227, 243, 0.5);
+    background: -webkit-linear-gradient(#00070e, #4d4f52);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;}
+    
+  
+  
  
 
 
@@ -81,6 +112,8 @@ h1,h2, h3, p{
   transform: scale(1.10, 1.10);
   transition: transform 1100ms;
 }
+
+
 
 
 

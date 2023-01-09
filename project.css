@@ -132,22 +132,3 @@ h1,h2, h3, p{
   }
 
 
-  /* Set the background color for screens with a width less than or equal to 600 pixels: */
-@media screen and (max-width: 600px) {
-  body {
-    background-color: #E8F0F9;
-  }
-  .chart {
-    width: 300px;
-  }
-}
-
-/* Set the background color for screens with a width greater than 600 pixels: */
-@media screen and (min-width: 601px) {
-  body {
-    background-color: #E8F0F9;
-  }
-  .chart {
-    width: 800px;
-  }
-}

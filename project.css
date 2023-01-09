@@ -99,7 +99,7 @@ h1,h2, h3, p{
     justify-content: center;
     align-content: center;
     width: 80%; /* This will set the width to be 80% of the parent element */
-   height: 400px; /* This will set the height to 400 pixels */
+   height: 600px; /* This will set the height to 400 pixels */
     }
 
 .grid-container{

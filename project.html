@@ -29,7 +29,7 @@
         <h1>Sectoral Vulnerability to Fed Rate Hikes: Investment Grade Corporate Bonds</h1>
         <div class="heading-and-paragraph">
             <h2>Introduction</h2>
-            <p>In 2022, the Federal Reserve implemented a particularly aggressive cycle of interest rate hikes, raising the federal funds rate by 425 basis points. This had a significant impact on fixed income securities, with yields on "risk-free" US 10-year Treasury bonds surpassing 3.5%. Corporate debt is a significant portion of the fixed income market, with the CFA Institute reporting that over $1 trillion is financed annually in this sector. This study aims to examine the sensitivity of investment grade bond yields in different sectors of the corporate debt market to the interest rate hikes implemented by the Federal Reserve. Using machine learning and regression techniques, the analysis will be conducted on data from the S&P 500 Corporate Bond Indices, focusing on the telecommunications, consumer discretionary, energy, financials, and industrials sectors.</p>
+            <p>In 2022, the Federal Reserve raised the federal funds rate by 425 basis points, affecting fixed income securities and pushing yields on US 10-year Treasury bonds above 3.5%. This study aims to examine the sensitivity of investment grade bond yields in various sectors of the corporate debt market to these interest rate hikes. Data from the S&P 500 Corporate Bond Indices will be analyzed using machine learning and regression techniques, focusing on the telecommunications, consumer discretionary, energy, financials, and industrials sectors.</p>
           </div>
           
 
@@ -37,7 +37,7 @@
             <h2>Chart 1: Federal Funds Effective Rate Overtime</h2>
             <div class="acontainer">
             <div class="chart" id="Chart1"></div>
-            <p>The Federal Reserve Effective Funds Rate for the period 2010-2022 is shown in the chart. This rate influences the yield on bonds, as a higher rate makes the returns on bonds less appealing and causes a sell-off of bonds. The rate rose sharply in March 2022, due to supply chain disruptions causing inflation. As of January 5, 2023, the rate is 4.33%, which is 166.5% higher than the peak rate during 2010-2022 on March 24, 2019. The data for the chart was obtained from FRED API and extracted in json format from Collab.</p>
+            <p>The Federal Reserve Effective Funds Rate for the period 2010-2022 is shown in the chart. The data for the chart was obtained from FRED API and extracted in json format from Collab.</p>
             <div class="wrap"></div>
             <p>The link to the collab notebook can be found <a class="textlink" href="https://colab.research.google.com/drive/1x0jEPZ6AIYMmhFLjJD5P6lgfc7Z0acAG?usp=sharing">here</a>.</p>
         
@@ -75,7 +75,7 @@
 
             <div class="heading-and-paragraph">
                 <h2>Conclusion</h2>
-                <p>In summary, the results of the regression analysis show that the Federal Funds Rate has a strong impact on Investment Grade Corporate Yields. Over the past 7 years, financials corporate bond yields were the most volatile, while consumer discretionary bond yields were the least volatile. Industrial sector bonds were found to be similar to consumer discretionary bonds according to an the DTW algorithm, while financials corporate bonds did not exhibit significant similarities to other sectors in 2022. In terms of sensitivity to Federal Funds Rate hikes, the financial sector was most affected, while the energy sector was least affected in 2022. This research offers valuable insights for pricing different sector bonds in the future when the central bank is raising rates and offers potential for further studies using similar models to examine the high yields sector.</p>
+                <p>In summary, the results of the regression analysis show that the Federal Funds Rate has a strong impact on Investment Grade Corporate Yields. Over the past 7 years, financials corporate bond yields were the most volatile, while consumer discretionary bond yields were the least volatile. Industrial sector bonds were found to be similar to consumer discretionary bonds according to an the DTW algorithm, while financials corporate bonds did not exhibit significant similarities to other sectors in 2022. In terms of sensitivity to Federal Funds Rate hikes, the financial sector was most affected, while the energy sector was least affected in 2022. This research offers valuable insights for pricing different sector bonds in the future when the central bank is raising rates and offers potential for further studies using similar models to examine the high yields sector. Lastly, some of the major issues faced by this project were non-avaibility of APIs for all the SPDJI data as it was a paid API. Furthermore, all the CSVs were initially in a wide format and had to be converted to narrow format on python.</p>
               </div>
              
             </div>

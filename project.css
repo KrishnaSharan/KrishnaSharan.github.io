@@ -137,13 +137,13 @@ h1,h2, h3, p{
       align-items: center;
     }
     .chart {
-      width: 70%;
+      width: 10%;
     }
     .heading-and-paragraph {
       width: 90%;
     }
     #Chart1, #Chart2, #Chart3 {
-      width: 80%;
+      width: 10%;
     }
   }
   
